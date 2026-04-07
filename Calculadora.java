@@ -22,7 +22,14 @@ public class Calculadora {
                 return (double) a / b;
             default:
                 throw new IllegalArgumentException("Operação inválida: " + operacao);
+        
+
+        public static int somar(int a, int b) {
+        return a + b;
+}
         }
+        }
+
     }
 
     // Método principal para testar
