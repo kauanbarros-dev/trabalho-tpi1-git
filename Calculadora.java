@@ -33,7 +33,17 @@ public class Calculadora {
 
     public static int multiplicar(int a, int b) {
         return a * b;
+
+    }
+
+    public static double dividir(double a, double b) {
+    if (b == 0) {
+        System.out.println("Erro: divisao por zero");
+        return 0;
+    }
+    return a / b;
 }
+
 }
         }
         }
